@@ -1,32 +1,33 @@
 {
-  "name": "standard-react",
-  "description": "JavaScript Standard Style (for React users)",
-  "version": "3.0.0",
+  "name": "standard-flow",
+  "description": "JavaScript Standard Style (with Flow types)",
+  "version": "1.0.0",
   "author": {
-    "email": "feross@feross.org",
-    "name": "Feross Aboukhadijeh",
-    "url": "http://feross.org/"
+    "email": "rfobic@gmail.com",
+    "name": "Irakli Gozalishvili",
+    "url": "http://jeditoolkit.com"
   },
   "bin": "./bin/cmd.js",
   "bugs": {
-    "url": "https://github.com/feross/standard/issues"
+    "url": "https://github.com/Gozala/standard-flow/issues"
   },
   "dependencies": {
-    "eslint": "~3.3.1",
-    "eslint-config-standard": "6.0.0-beta.3",
-    "eslint-config-standard-jsx": "3.0.0",
-    "eslint-config-standard-react": "3.0.0",
-    "eslint-plugin-promise": "^2.0.0",
-    "eslint-plugin-react": "^6.1.2",
-    "eslint-plugin-standard": "^2.0.0",
-    "standard-engine": "^5.0.3",
-    "xtend": "^4.0.1"
+    "eslint": "3.3.1",
+    "eslint-config-standard-flow": "1.0.1",
+    "standard-engine": "5.1.0",
+    "xtend": "4.0.1",
+    "babel-eslint": "6.1.2",
+    "eslint-config-standard": "5.3.5",
+    "eslint-plugin-flowtype": "2.7.1",
+    "eslint-plugin-import": "1.13.0",
+    "eslint-plugin-promise": "2.0.1",
+    "eslint-plugin-standard": "2.0.0"
   },
   "devDependencies": {
-    "cross-spawn": "^4.0.0",
-    "tape": "^4.4.0"
+    "cross-spawn": "4.0.0",
+    "tape": "4.6.0"
   },
-  "homepage": "http://standardjs.com",
+  "homepage": "https://github.com/gozala/standard-flow",
   "keywords": [
     "JavaScript Standard Style",
     "check",
@@ -51,13 +52,13 @@
     "style checker",
     "style linter",
     "verify",
-    "react"
+    "flow"
   ],
   "license": "MIT",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/feross/standard.git"
+    "url": "git://github.com/Gozala/standard-flow.git"
   },
   "scripts": {
     "test": "./bin/cmd.js && tape test/*.js"
