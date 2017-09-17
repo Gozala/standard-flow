@@ -1,3 +1,11 @@
+# :warning: Deprecated :warning:
+
+Standard now has first-party support for Flow as of Standard v10 via custom plugins. See:
+
+- https://standardjs.com/index.html#flow
+
+---
+
 # standard-flow
 [![travis][travis-image]][travis-url]
 [![npm][npm-image]][npm-url]
